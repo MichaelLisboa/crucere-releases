@@ -20,6 +20,18 @@ You get the answer, the reasoning behind it, and a report you can hand to someon
 
 And all of it runs on your own computer. Nothing you upload or ask goes anywhere. No account. No sign-in. No cloud.
 
+## Don't take my word for it
+
+Here's what the room actually ruled. Real questions, real sources, nothing tidied up.
+
+| The question | Research it saved |
+| --- | --- |
+| [The world has survived a brewing energy crisis for seven months. What should we watch next?](https://crucere.com/judgments/1790932590-dca5ad) | 32 hours, 5 minutes |
+| [What is the difference between the dot-com boom and the AI boom?](https://crucere.com/judgments/1790269687-3b45f0) | 14 hours, 2 minutes |
+| [Will the Fed Chair lower rates?](https://crucere.com/judgments/1790267642-4767fd) | 9 hours, 22 minutes |
+
+Each one shows the answer, who argued what, and the sources it came from. There are [nine more](https://crucere.com/judgments) where those came from.
+
 ## Get it
 
 | | Download | Runs on | Size |
