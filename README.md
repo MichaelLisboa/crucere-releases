@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Crucere" width="100%">
+  <a href="https://crucere.com/judgments"><img src="assets/crucere.png" alt="Crucere on three screens: the sources compared side by side, the room's ruling, and the five researchers mid-debate" width="100%"></a>
 </p>
 
 <p align="center">
