@@ -2,6 +2,12 @@
   <img src="assets/banner.svg" alt="Crucere" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="102"></a>
+  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-mac.pkg"><img src="assets/mac.svg" alt="Download for Mac" width="72"></a>
+  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk"><img src="assets/android.svg" alt="Download for Android" width="96"></a>
+</p>
+
 # You collected the research. Crucere reads it.
 
 Be honest. That folder of PDFs, reports and spreadsheets? You haven't read it.
@@ -16,19 +22,11 @@ And all of it runs on your own computer. Nothing you upload or ask goes anywhere
 
 ## Get it
 
-<p>
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-windows.exe"><img src="assets/download-windows.svg" alt="Download for Windows" height="52"></a>
-  &nbsp;
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-mac.pkg"><img src="assets/download-mac.svg" alt="Download for Mac" height="52"></a>
-  &nbsp;
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk"><img src="assets/download-android.svg" alt="Download for Android" height="52"></a>
-</p>
-
-| | Runs on | Size |
-| --- | --- | --- |
-| **Windows** | Windows 10 or 11, 64-bit | 1.7 GB |
-| **Mac** | Apple silicon | 382 MB |
-| **Android** | Android 12 or later | 133 MB |
+| | Download | Runs on | Size |
+| --- | --- | --- | --- |
+| **Windows** | [Crucere-0.5.19-windows.exe](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-windows.exe) | Windows 10 or 11, 64-bit | 1.7 GB |
+| **Mac** | [Crucere-0.5.19-mac.pkg](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-mac.pkg) | Apple silicon | 382 MB |
+| **Android** | [Crucere-0.5.19-android.apk](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk) | Android 12 or later | 133 MB |
 
 This is version 0.5.19, and it's an alpha. Things will break.
 
