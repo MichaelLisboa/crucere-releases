@@ -68,6 +68,12 @@ Sorry. Crucere fetches its AI model the first time it opens: about 2.5 GB on Win
 
 Go make a coffee. After that, it works without an internet connection.
 
+## It updates itself
+
+On Windows, from 0.5.20. When there's a new version, a button shows up beside the version number. One click, and Crucere comes back on the new one.
+
+Mac and Android don't do this yet. For those, you download the new installer.
+
 ## Something broke?
 
 Good. That's what an alpha is for.
