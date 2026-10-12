@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="102"></a>
+  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.20/Crucere-0.5.20-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="102"></a>
   <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-mac.pkg"><img src="assets/mac.svg" alt="Download for Mac" width="72"></a>
   <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk"><img src="assets/android.svg" alt="Download for Android" width="96"></a>
 </p>
@@ -36,19 +36,21 @@ Each one shows the answer, who argued what, and the sources it came from. There 
 
 | | Download | Runs on | Size |
 | --- | --- | --- | --- |
-| **Windows** | [Crucere-0.5.19-windows.exe](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-windows.exe) | Windows 10 or 11, 64-bit | 1.7 GB |
+| **Windows** | [Crucere-0.5.20-windows.exe](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.20/Crucere-0.5.20-windows.exe) | Windows 10 or 11, 64-bit | 176 MB |
 | **Mac** | [Crucere-0.5.19-mac.pkg](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-mac.pkg) | Apple silicon | 382 MB |
 | **Android** | [Crucere-0.5.19-android.apk](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk) | Android 12 or later | 133 MB |
 
-This is version 0.5.19, and it's an alpha. Things will break.
+Windows is on version 0.5.20. Mac and Android are still on 0.5.19, and catching up. It's an alpha. Things will break.
 
-## Yes, the Windows one is huge
+## The Windows one went on a diet
 
-1.7 GB. I know.
+It was 1.7 GB. Now it's 176 MB.
 
-Crucere needs something to run the AI models. On Windows and Mac that something is [Ollama](https://ollama.com), a free program, and both installers bring it along. Ollama for Windows carries support for a lot of different graphics cards, so it's big. Ollama for Mac isn't. That's the whole difference between 1.7 GB and 382 MB.
+Crucere needs something to run the AI models. On Windows and Mac that something is [Ollama](https://ollama.com), a free program. The Mac installer brings it along. The Windows one used to, whether you needed it or not.
 
-Already have Ollama? The installer leaves yours alone.
+Not anymore. On Windows, Crucere fetches Ollama the first time it opens, and only if you don't have it.
+
+Already have Ollama? Crucere leaves yours alone.
 
 Android doesn't use Ollama at all. It runs its own model, Google's Gemma, built to run directly on a phone.
 
@@ -62,7 +64,7 @@ The installers aren't signed yet, so your device will ask if you're sure. You're
 
 ## One more download
 
-Sorry. Crucere fetches its AI model the first time it opens: about 2.5 GB on Windows and Mac, about 2.7 GB on Android.
+Sorry. Crucere fetches its AI model the first time it opens: about 2.5 GB on Windows and Mac, about 2.7 GB on Android. On Windows, add about 1.5 GB for Ollama if you don't have it.
 
 Go make a coffee. After that, it works without an internet connection.
 
