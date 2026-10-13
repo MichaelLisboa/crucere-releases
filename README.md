@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.23/Crucere-0.5.23-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="102"></a>
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.23/Crucere-0.5.23-mac.pkg"><img src="assets/mac.svg" alt="Download for Mac" width="72"></a>
+  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="102"></a>
+  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-mac.pkg"><img src="assets/mac.svg" alt="Download for Mac" width="72"></a>
   <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk"><img src="assets/android.svg" alt="Download for Android" width="96"></a>
 </p>
 
@@ -36,19 +36,19 @@ Each one shows the answer, who argued what, and the sources it came from. There 
 
 | | Download | Runs on | Size |
 | --- | --- | --- | --- |
-| **Windows** | [Crucere-0.5.23-windows.exe](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.23/Crucere-0.5.23-windows.exe) | Windows 10 or 11, 64-bit | 176 MB |
-| **Mac** | [Crucere-0.5.23-mac.pkg](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.23/Crucere-0.5.23-mac.pkg) | Apple silicon | 382 MB |
+| **Windows** | [Crucere-0.5.24-windows.exe](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-windows.exe) | Windows 10 or 11, 64-bit | 176 MB |
+| **Mac** | [Crucere-0.5.24-mac.pkg](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-mac.pkg) | Apple silicon, macOS 15 or later | 176 MB |
 | **Android** | [Crucere-0.5.19-android.apk](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk) | Android 12 or later | 133 MB |
 
-Windows and Mac are on version 0.5.23. Android is still on 0.5.19, and catching up. It's an alpha. Things will break.
+Windows and Mac are on version 0.5.24. Android is still on 0.5.19, and catching up. It's an alpha. Things will break.
 
-## The Windows one went on a diet
+## The installers went on a diet
 
-It was 1.7 GB. Now it's 176 MB.
+Windows was 1.7 GB. Mac was 382 MB. Now they're both 176 MB.
 
-Crucere needs something to run the AI models. On Windows and Mac that something is [Ollama](https://ollama.com), a free program. The Mac installer brings it along. The Windows one used to, whether you needed it or not.
+Crucere needs something to run the AI models. On Windows and Mac that something is [Ollama](https://ollama.com), a free program, and the installers used to bring it along whether you needed it or not.
 
-Not anymore. On Windows, Crucere fetches Ollama the first time it opens, and only if you don't have it.
+Not anymore. Crucere fetches Ollama the first time it opens, and only if you don't have it.
 
 Already have Ollama? Crucere leaves yours alone.
 
@@ -59,20 +59,22 @@ Android doesn't use Ollama at all. It runs its own model, Google's Gemma, built 
 The installers aren't signed yet, so your device will ask if you're sure. You're sure.
 
 - **Windows.** Run the file. If you see "Windows protected your PC", choose **More info**, then **Run anyway**.
-- **Mac.** Right-click the file and choose **Open**. Still refusing? Go to **System Settings → Privacy & Security** and choose **Open Anyway**.
+- **Mac.** Open the file. Your Mac will refuse. Go to **System Settings → Privacy & Security**, choose **Open Anyway**, then open it again.
 - **Android.** Open the file, and let your browser or file manager install apps when it asks.
 
 ## One more download
 
-Sorry. Crucere fetches its AI model the first time it opens: about 2.5 GB on Windows and Mac, about 2.7 GB on Android. On Windows, add about 1.5 GB for Ollama if you don't have it.
+Sorry. Crucere fetches its AI model the first time it opens. On Windows and Mac, it fetches Ollama too if you don't have it.
 
 Go make a coffee. After that, it works without an internet connection.
 
 ## It updates itself
 
-On Windows, from 0.5.20. When there's a new version, a button shows up beside the version number. One click, and Crucere comes back on the new one.
+On Windows from 0.5.20, on Mac from 0.5.23. When there's a new version, a button shows up beside the version number. One click, and Crucere comes back on the new one.
 
-Mac and Android don't do this yet. For those, you download the new installer.
+On anything older, install the new one yourself. After that, updates arrive in the app.
+
+Android doesn't do this yet. For that, you download the new installer.
 
 ## Something broke?
 
