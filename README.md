@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.20/Crucere-0.5.20-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="102"></a>
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-mac.pkg"><img src="assets/mac.svg" alt="Download for Mac" width="72"></a>
+  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.23/Crucere-0.5.23-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="102"></a>
+  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.23/Crucere-0.5.23-mac.pkg"><img src="assets/mac.svg" alt="Download for Mac" width="72"></a>
   <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk"><img src="assets/android.svg" alt="Download for Android" width="96"></a>
 </p>
 
@@ -36,11 +36,11 @@ Each one shows the answer, who argued what, and the sources it came from. There 
 
 | | Download | Runs on | Size |
 | --- | --- | --- | --- |
-| **Windows** | [Crucere-0.5.20-windows.exe](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.20/Crucere-0.5.20-windows.exe) | Windows 10 or 11, 64-bit | 176 MB |
-| **Mac** | [Crucere-0.5.19-mac.pkg](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-mac.pkg) | Apple silicon | 382 MB |
+| **Windows** | [Crucere-0.5.23-windows.exe](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.23/Crucere-0.5.23-windows.exe) | Windows 10 or 11, 64-bit | 176 MB |
+| **Mac** | [Crucere-0.5.23-mac.pkg](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.23/Crucere-0.5.23-mac.pkg) | Apple silicon | 382 MB |
 | **Android** | [Crucere-0.5.19-android.apk](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk) | Android 12 or later | 133 MB |
 
-Windows is on version 0.5.20. Mac and Android are still on 0.5.19, and catching up. It's an alpha. Things will break.
+Windows and Mac are on version 0.5.23. Android is still on 0.5.19, and catching up. It's an alpha. Things will break.
 
 ## The Windows one went on a diet
 
