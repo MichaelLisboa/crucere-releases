@@ -1,14 +1,31 @@
+<div align="center">
+  <img src="assets/icon.png" alt="" width="88">
+  <h1>Crucere</h1>
+  <p><b>You collected the research. Crucere reads it.</b><br>Five AI researchers read every source and argue it out, and a Judge rules. All of it on your own computer.</p>
+  <p>
+    <a href="https://github.com/MichaelLisboa/crucere-releases/releases/latest"><img src="https://img.shields.io/github/v/release/MichaelLisboa/crucere-releases?label=version&color=ff884d" alt="Latest version"></a>
+    <img src="https://img.shields.io/badge/for-Windows%20%C2%B7%20Mac%20%C2%B7%20Android-5b6470" alt="Windows, Mac and Android">
+    <img src="https://img.shields.io/badge/runs%20on-your%20computer-5b6470" alt="Runs on your computer">
+    <img src="https://img.shields.io/badge/stage-alpha-5b6470" alt="Alpha">
+  </p>
+  <p>
+    <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="113"></a>
+    <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.25/Crucere-0.5.25-mac.pkg"><img src="assets/mac.svg" alt="Download for Mac" width="80"></a>
+    <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk"><img src="assets/android.svg" alt="Download for Android" width="107"></a>
+  </p>
+</div>
+
 <p align="center">
   <a href="https://crucere.com/judgments"><img src="assets/crucere.png" alt="Crucere on three screens: the sources compared side by side, the room's ruling, and the five researchers mid-debate" width="100%"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-windows.exe"><img src="assets/windows.svg" alt="Download for Windows" width="102"></a>
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-mac.pkg"><img src="assets/mac.svg" alt="Download for Mac" width="72"></a>
-  <a href="https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk"><img src="assets/android.svg" alt="Download for Android" width="96"></a>
-</p>
-
-# You collected the research. Crucere reads it.
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>The sources</b><br>Where they agree, and where they collide.</td>
+    <td width="34%" valign="top"><b>The ruling</b><br>The answer, and the reasoning behind it.</td>
+    <td width="33%" valign="top"><b>The room</b><br>Five AI researchers argue it out. A Judge rules.</td>
+  </tr>
+</table>
 
 Be honest. That folder of PDFs, reports and spreadsheets? You haven't read it.
 
@@ -37,10 +54,10 @@ Each one shows the answer, who argued what, and the sources it came from. There 
 | | Download | Runs on | Size |
 | --- | --- | --- | --- |
 | **Windows** | [Crucere-0.5.24-windows.exe](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-windows.exe) | Windows 10 or 11, 64-bit | 176 MB |
-| **Mac** | [Crucere-0.5.24-mac.pkg](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.24/Crucere-0.5.24-mac.pkg) | Apple silicon, macOS 15 or later | 176 MB |
+| **Mac** | [Crucere-0.5.25-mac.pkg](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.25/Crucere-0.5.25-mac.pkg) | Apple silicon, macOS 15 or later | 176 MB |
 | **Android** | [Crucere-0.5.19-android.apk](https://github.com/MichaelLisboa/crucere-releases/releases/download/v0.5.19/Crucere-0.5.19-android.apk) | Android 12 or later | 133 MB |
 
-Windows and Mac are on version 0.5.24. Android is still on 0.5.19, and catching up. It's an alpha. Things will break.
+Mac is on version 0.5.25 and Windows on 0.5.24. Android is still on 0.5.19, and catching up. It's an alpha. Things will break.
 
 ## The installers went on a diet
 
@@ -56,10 +73,10 @@ Android doesn't use Ollama at all. It runs its own model, Google's Gemma, built 
 
 ## Your computer will complain
 
-The installers aren't signed yet, so your device will ask if you're sure. You're sure.
+The Windows and Android installers aren't signed yet, so those devices will ask if you're sure. You're sure.
 
 - **Windows.** Run the file. If you see "Windows protected your PC", choose **More info**, then **Run anyway**.
-- **Mac.** Open the file. Your Mac will refuse. Go to **System Settings → Privacy & Security**, choose **Open Anyway**, then open it again.
+- **Mac.** Open the installer and it installs. From 0.5.25 it's signed and notarised by Apple, so there are no more trips to Privacy & Security.
 - **Android.** Open the file, and let your browser or file manager install apps when it asks.
 
 ## One more download
@@ -83,3 +100,9 @@ Good. That's what an alpha is for.
 [Open an issue](https://github.com/MichaelLisboa/crucere-releases/issues) and tell me what happened. Questions, revelations and insults are all welcome.
 
 Thanks for trying it.
+
+---
+
+<p align="center">
+  <sub><a href="https://crucere.com">crucere.com</a> · <a href="https://crucere.com/privacy">Privacy</a> · <a href="https://github.com/MichaelLisboa/crucere-releases/issues">Report a problem</a> · <a href="https://github.com/MichaelLisboa/crucere-releases/releases">All versions</a></sub>
+</p>
